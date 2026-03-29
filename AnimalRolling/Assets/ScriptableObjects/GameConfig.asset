@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5281a8d1915e64cd8ab8dd5b0082c835, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  boardSize: 80
+  tileSize: 3
+  tileSpacing: 6
+  startingDice: 100
+  maxDice: 250
+  diceRefillAmount: 10
+  diceRefillTime: 30
+  playerTileOffset: 0.5
+  propSurfaceOffset: 1
+  mealTileBase: 3
+  mealRoadBase: 0
+  mealLapBonus: 8
+  mealGoldenThreshold: 250
+  mealPassiveCheap: 0.4
+  mealPassiveMid: 0.8
+  mealPassiveExpensive: 0
+  mealTileBonusCheap: 0
+  mealTileBonusMid: 2
+  mealTileBonusExpensive: 0
+  mealInstantCheap: 5
+  mealInstantMid: 3
+  mealInstantExpensive: 0
+  tileAlterChance: 0.35
+  coinRoad: 30
+  coinCashLow: 80
+  coinCashMid: 120
+  coinCashHigh: 180
+  coinLapBonus: 500
+  coinTractorClear: 120
+  farmerBribeBase: 400
+  farmerBribeEscalation: 200
+  farmerSpawnChance: 0.25
+  alertCashTile: 2
+  alertDangerFail: 5
+  alertFarmerSpotted: 15
+  alertPitReduce: 10
+  alertFlockReduce: 10
+  alertSneakReduce: 10
+  trackCheckpoints:
+  - name: Muddy Path
+    percent: 12
+  - name: Creek Cross
+    percent: 25
+  - name: Wild Fields
+    percent: 40
+  - name: Dark Woods
+    percent: 55
+  - name: Hill Top
+    percent: 72
+  - name: Nature Haven
+    percent: 88
+  tilePattern:
+  - type: 0
+    color: {r: 0.133, g: 0.545, b: 0.133, a: 1}
+  - type: 1
+    color: {r: 0.545, g: 0.271, b: 0.075, a: 1}
+  - type: 2
+    color: {r: 1, g: 0.843, b: 0, a: 1}
+  - type: 1
+    color: {r: 0.545, g: 0.271, b: 0.075, a: 1}
+  - type: 3
+    color: {r: 1, g: 0.271, b: 0, a: 1}
+  - type: 4
+    color: {r: 0.196, g: 0.804, b: 0.196, a: 1}
+  - type: 1
+    color: {r: 0.545, g: 0.271, b: 0.075, a: 1}
+  - type: 5
+    color: {r: 0.902, g: 0.224, b: 0.275, a: 1}
+  - type: 1
+    color: {r: 0.545, g: 0.271, b: 0.075, a: 1}
+  - type: 6
+    color: {r: 0, g: 0.98, b: 0.604, a: 1}
+  - type: 2
+    color: {r: 1, g: 0.843, b: 0, a: 1}
+  - type: 1
+    color: {r: 0.545, g: 0.271, b: 0.075, a: 1}
+  - type: 7
+    color: {r: 0.255, g: 0.412, b: 0.882, a: 1}
+  - type: 4
+    color: {r: 0.196, g: 0.804, b: 0.196, a: 1}
+  - type: 8
+    color: {r: 1, g: 0.412, b: 0.706, a: 1}
+  - type: 1
+    color: {r: 0.545, g: 0.271, b: 0.075, a: 1}
+  - type: 1
+    color: {r: 0.545, g: 0.271, b: 0.075, a: 1}
+  - type: 2
+    color: {r: 1, g: 0.843, b: 0, a: 1}
+  - type: 9
+    color: {r: 0.596, g: 0.984, b: 0.596, a: 1}
+  - type: 4
+    color: {r: 0.196, g: 0.804, b: 0.196, a: 1}
