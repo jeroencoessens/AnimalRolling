@@ -53,6 +53,8 @@ public class GameManager : MonoBehaviour
 
         persist = SaveManager.Load();
         run = new RunState();
+
+        Application.targetFrameRate = 120;
     }
 
     void Start()
